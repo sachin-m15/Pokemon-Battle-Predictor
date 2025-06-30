@@ -66,8 +66,13 @@ This project uses a multi-level ensemble approach:
 This architecture ensures high accuracy and reduced bias/variance, making predictions more reliable.
 
 📝 Features
+
 ✅ Predicts the winner between any two Pokémon
+
 ✅ Uses type effectiveness calculation
+
 ✅ Considers legendary status and stat differences
+
 ✅ Beautiful simulation interface with VS animations
+
 ✅ Background instrumental music for an immersive experience
