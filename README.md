@@ -21,30 +21,46 @@ This curiosity inspired me to build this ML project, combining my love for Poké
 
 
 🛠 Tech Stack
+
 ->Python, Pandas, NumPy
+
 ->Scikit-learn, XGBoost
+
 ->Streamlit for Web App
+
 ->HTML/CSS for advanced UI customization
 
 
 🤖 ML Model
+
 This project uses a multi-level ensemble approach:
 
 1.Stacked Model 1
+
 ->Random Forest
+
 ->XGBoost
+
 ->Logistic Regression
+
 ->SVM
+
 ->Meta-learner: MLPClassifier
 
 2.Stacked Model 2
+
 ->SVM
+
 ->XGBoost
+
 ->Random Forest
+
 ->KNN
+
 ->Meta-learner: Logistic Regression
 
 3.Final Ensemble
+
 ->Soft Voting of both stacked models for robust generalization.
 
 This architecture ensures high accuracy and reduced bias/variance, making predictions more reliable.
